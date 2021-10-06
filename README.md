@@ -111,3 +111,15 @@ bash train_wsod.sh 1 pascal_voc vgg16 voc07_wsddn_pre lbba_final.pth
 ```
 
 Note that we provide different LBBA checkpoints (initialization stage, final stage, or even one-class adjuster mentioned in the suppl.).
+
+## Citation
+```
+@InProceedings{Dong_2021_ICCV,
+    author    = {Dong, Bowen and Huang, Zitong and Guo, Yuelin and Wang, Qilong and Niu, Zhenxing and Zuo, Wangmeng},
+    title     = {Boosting Weakly Supervised Object Detection via Learning Bounding Box Adjusters},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {2876-2885}
+}
+```
