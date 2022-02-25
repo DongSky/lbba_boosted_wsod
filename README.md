@@ -14,12 +14,12 @@ We use one RTX 2080Ti GPU (11GB) to train and evaluate our method, GPU with larg
 
 ## Requirements
 - Python 3.6 or higher
-- CUDA 10.1 with cuDNN 7.6.2
+- CUDA 10.0 with corresponding cuDNN
 - PyTorch 1.2.0
 - numpy 1.18.1
 - opencv 3.4.2
 
-We provide a full requirements.txt (namely lbba\_requirements.txt) in the workspace (lbba\_boosted\_wsod directory).
+We provide a full requirements.txt (namely lbba.yml) in the workspace (lbba\_boosted\_wsod directory).
 
 
 ## Additional resources
