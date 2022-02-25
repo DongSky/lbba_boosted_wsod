@@ -19,7 +19,7 @@ We use one RTX 2080Ti GPU (11GB) to train and evaluate our method, GPU with larg
 - numpy 1.18.1
 - opencv 3.4.2
 
-We provide a full requirements.txt (namely lbba.yml) in the workspace (lbba\_boosted\_wsod directory).
+We provide a full requirements.txt (namely lbba.yml) in the workspace.
 
 
 ## Additional resources
