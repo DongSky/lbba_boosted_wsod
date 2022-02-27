@@ -18,6 +18,7 @@ We use one RTX 2080Ti GPU (11GB) to train and evaluate our method, GPU with larg
 - PyTorch 1.2.0
 - numpy 1.18.1
 - opencv 3.4.2
+- scipy 1.1.0 (note that scipy >= 1.3.0 has removed imresize operation, you need to rewrite the corresponding code if using a newer scipy)
 
 We provide a full requirements.txt (namely lbba.yml) in the workspace.
 
